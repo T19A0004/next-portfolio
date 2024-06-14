@@ -16,6 +16,7 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
           "dark-gradient": "linear-gradient(to right, #0F2027, #203a43, #0E0E48)", // Example dark gradient
+          "light-gradient": "linear-gradient(90deg, #e9defa 0%, #fbfcdb 100%)", // Example light gradient
       },
     },
   },

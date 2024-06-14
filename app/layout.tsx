@@ -1,10 +1,13 @@
+import { Provider } from './Provider';
 import './globals.css';
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <html>
+    <html lang="en" className='light'>
       <body>
-        {children}
+        <Provider>
+          {children}
+        </Provider>
       </body>
     </html>
   );

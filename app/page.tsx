@@ -1,12 +1,14 @@
+// app/page.tsx
 import Header from '../components/Header';
 import Introduction from '../components/Introduction';
 import About from '../components/About';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
+import { Provider } from './Provider';
 
 const Home = () => {
   return (
-    <div>
+    <Provider>
       <Header />
       <main>
         <Introduction />
@@ -14,7 +16,7 @@ const Home = () => {
         <Projects />
         <Contact />
       </main>
-    </div>
+    </Provider>
   );
 };
 

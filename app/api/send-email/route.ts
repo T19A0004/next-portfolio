@@ -16,7 +16,8 @@ export async function POST(req: NextRequest) {
     from: email,
     to: process.env.EMAIL_USER,
     subject: `New message from ${name}`,
-    text: message,
+    text: `Email: ${email}
+    Message: ${message}`,
   };
 
   try {

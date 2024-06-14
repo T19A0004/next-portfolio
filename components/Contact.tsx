@@ -32,7 +32,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="min-h-screen flex items-center justify-center bg-gray-100">
+    <section id="contact" className="min-h-screen flex items-center justify-center">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold mb-4">Contact</h2>
         <p className="text-lg mb-4">Feel free to reach out to me!</p>

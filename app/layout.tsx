@@ -4,7 +4,7 @@ import './globals.css';
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en" className='light'>
-      <body>
+      <body className="dark:bg-dark-gradient">
         <Provider>
           {children}
         </Provider>

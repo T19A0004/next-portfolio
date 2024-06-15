@@ -6,6 +6,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
     <html lang="en" className='light:bg-light-gradient'>
       <body className="dark:bg-dark-gradient">
         <Provider>
+          <div className="main"></div>
           {children}
         </Provider>
       </body>

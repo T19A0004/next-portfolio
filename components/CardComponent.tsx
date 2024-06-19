@@ -15,6 +15,7 @@ const CardComponent: React.FC<CardComponentProps> = ({ title, description, image
     className="border-none w-full sm:w-[300px] h-[300px] mx-auto"
   >
     <Image
+      isZoomed
       alt={title}
       className="object-cover w-full h-full rounded-lg"
       src={imageUrl}

@@ -1,4 +1,7 @@
+// app/layout.tsx
+
 import { Provider } from './Provider';
+import ToTopButton from "../components/ToTopButton";
 import './globals.css';
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
@@ -8,6 +11,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         <Provider>
           <div className="main"></div>
           {children}
+          <ToTopButton />
         </Provider>
       </body>
     </html>
